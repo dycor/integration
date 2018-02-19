@@ -1,0 +1,64 @@
+
+
+h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 140%;
+    color: #3F4867;
+}
+
+
+.titre1{
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 120%;
+    color: #3F4867;
+}
+
+
+.titre2{
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 100%;
+    color: #3F4867;
+}
+
+
+.titre3{
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 110%;
+    color: #c4c2c2;
+}
+
+
+.texte2 {
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 100%;
+    color: #3F4867;
+    padding:1.5% 0;
+}
+
+
+.texte3 {
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 110%;
+    text-align: center;
+    color: #000000;
+    padding:1.5% 0;
+}
+
+

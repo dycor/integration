@@ -1,0 +1,249 @@
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../font/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+body{
+	background-color: #F2F2F2;
+    font-family: Open Sans;
+}
+
+/* HEADER */
+
+header{
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width : calc(100% - 220px);
+	height: 50px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	margin-left: 220px;
+}
+
+header > section{
+	position: relative;
+	height: 50px;
+}
+
+header > section > #burgerMenu{
+	display: none;
+	position: absolute;
+	left: 40;
+	top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+header > section > #burgerMenu > .svg{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	fill: #F681A9;
+}
+
+header > section > #nameSiteWeb, header > section > #profile{
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header > section > #nameSiteWeb{
+	left: 40;
+}
+
+header > section > #profile{
+	right: 40;
+}
+
+header > section > #nameSiteWeb > .svg{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	fill: #F681A9;
+}
+
+header > section > #nameSiteWeb > a{
+	font-family: OpenSans-Bold, Calibri, Arial;
+	font-size: 14px;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #3F4867;
+}
+
+header > section > #nameSiteWeb > a:hover{
+	text-shadow: 0px 3px 6px rgba(206, 206, 206, 1);
+}
+
+header > section > #profile > #profileNamePicture > .pictureProfile{
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 50%;
+	border: 1px solid #F681A9;
+}
+
+header > section > #profile > #profileNamePicture > .chevronProfile{
+	cursor: pointer;
+}
+
+header > section > #profile > #profileNamePicture > span{
+	vertical-align: middle;
+	font-family: OpenSans-Bold, Calibri, Arial;
+	font-size: 14px;
+	color: #3F4867;
+}
+
+header > section > #profile > #profileNamePicture > .openProfile, header > section > #profile > #profileNamePicture > .closeProfile{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+header > section > #profile > #profileNamePicture > .closeProfile{
+	display: none;
+}
+
+header > section > #profile > #profileSettings{
+	display: none;
+	width: 171px;
+	position: absolute;
+	border: 1px solid rgba(149,153,171,.2);
+	border-radius: 5px;
+    margin-top: 8px;
+    background-color: #FFFFFF;
+}
+
+header > section > #profile > #profileSettings > #myProfile, header > section > #profile > #profileSettings > #logout{
+	line-height: 2;
+}
+
+header > section > #profile > #profileSettings > #myProfile:hover, header > section > #profile > #profileSettings > #logout:hover{
+	background-color: #F6F6F6;
+}
+
+header > section > #profile > #profileSettings > #myProfile{
+	border-bottom : 1px solid rgba(149,153,171,.2);
+}
+
+header > section > #profile > #profileSettings > div > .svg, header > section > #profile > #profileSettings > div > img{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	fill: #F681A9;
+	margin-left: 15px;
+}
+
+header > section > #profile > #profileSettings > div > span{
+	font-family: OpenSans-Bold, Calibri, Arial;
+	font-size: 14px;
+	vertical-align: middle;
+	color: #3F4867;
+	padding-left: 6px;
+	cursor: pointer;
+}
+
+
+/* NAVIGATION */
+
+nav{
+	float: left;
+	height: 100%;
+	width: 220px;
+	background-color: #3F4867;
+}
+
+nav > ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav > .logo{
+	text-align: center;
+}
+
+nav > ul > li{
+	line-height: 2.4;
+	padding-left: 40px;
+}
+
+nav > ul > li:hover{
+	background-color: rgba(14, 17, 26, 0.2);
+    color: white;
+}
+
+nav > ul > li > .svg{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+nav > ul > li > a{
+	text-decoration: none;
+	font-family: OpenSans-Bold, Calibri, Arial;
+	font-size: 14px;
+	color: #E1E8ED;
+	vertical-align: middle;
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+nav > ul > li > .svg, nav > ul > li > .svg .st0{
+	fill: #FFF;
+}
+
+
+/*	CLEAR */
+.clearHeader{
+	height: 50px;
+}
+
+#contentBack{
+	position: absolute;
+	z-index: 100;
+	top: 50;
+	left: 0;
+	width : calc(100% - 220px);
+	height: auto;
+	margin-left: 220px;
+}
+
+
+/*	MOBILE	*/
+
+@media (max-width: 576px) {
+	nav{
+		display: none;
+		position: absolute;
+		z-index: 998;
+		top: 50px;
+	}
+	header{
+		width: 100%;
+		left: -220px;
+	}
+	#contentBack{
+		width: 100%;
+		left: -220px;
+	}
+	header > section > #nameSiteWeb > a{
+		display: none;
+	}
+	header > section > #profile > #profileNamePicture > span{
+		display: none;
+	}
+	header > section > #nameSiteWeb{
+	    left: 50%;
+	    transform: translateX(-50%) translateY(-50%);
+	}
+	header > section > #burgerMenu{
+		display: block;
+	}
+	#profileSettings{
+		margin-left: -69px;
+	}
+}
