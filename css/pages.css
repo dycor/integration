@@ -6,13 +6,10 @@
     font-size: 25px;
     color: #27AE60; 
 }
-.delete{
+
+.edit,.delete{
 	font-size: 25px;
-	color: #EB5757;
-}
-.edit{
-	font-size: 25px;
-	color: #414A69;
+	color: #F681A9;
 }
 
 .relative{

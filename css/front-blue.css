@@ -1,0 +1,316 @@
+	* {
+		font-family: 'Lato';
+	}
+	.group-grey {
+		background-color: #F7F7F7;
+		border:  2px solid #E5E5E5;
+	}
+	.banner {
+		position: relative;
+		height:765px;
+		width: 100%;
+		background-image:url('./../images/route2.jpg');
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size: cover;
+		color : white;
+	}
+	.banner > span {
+		font-size: 36px;
+	}
+	#big-logo {
+		position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translateY(-50%) translateX(-50%);
+	}
+	#sous-title-nav{
+		position: absolute;
+    	top: 63%;
+    	left: 50%;
+    	transform: translateY(-50%) translateX(-50%);
+    	font-size: 35px;
+	}
+	.banner::after {
+		content: '';
+		display: table;
+	}
+	#logo {
+		width: 225px;
+		height: 40px;
+		padding: 10px 0;
+		float: left;
+	}
+	#menuNav{
+		width: 90%;
+	    text-align: center;
+	    margin: 0 auto;
+	    padding-top: 45px;
+	}
+
+	#menuNav::after{
+		content: "";
+		display: table;
+		height: 23px;
+	}
+	#menuNav > img, #menuNav > ul, #menuNav button{
+		vertical-align: middle
+	}
+	#menuNav > ul{
+		margin-top: 12px;
+	}
+	#menuNav > ul > li:nth-child(2), #menuNav > ul > li:nth-child(3), #menuNav > ul > li:nth-child(4), #menuNav > ul > li:nth-child(5){
+		padding-left: 50px;
+	}
+	#menuNav > ul > li > a {
+	    overflow: hidden;
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+	}
+	#menuNav > ul > li > a:hover {
+	    color: #2D9CDB;
+	    text-align: center;
+	    cursor: pointer;
+	}
+	p {
+		color : #585858;
+	}
+	.head-header {
+		background-color:  #2D9CDB;
+		color : white;
+		height: 35px;
+	}
+	.navbar-header{
+		padding: 45px;
+	}
+	.navbar-header a {
+		overflow: hidden;
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+	} 
+	nav ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    display: inline-block;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+	a {
+		text-decoration: none;
+	}
+	.active {
+    	color: #2D9CDB !important;
+	}
+
+	.navbar-header a:hover {
+	    color: #2D9CDB;
+	    text-align: center;
+	    cursor: pointer;
+	}
+	#btn-eleve {
+		background-color: #2D9CDB;
+		border: 1px solid #2D9CDB;
+		color: white;
+		height: 45px;
+		float: right;
+	}
+	#btn-eleve:hover {
+		background-color: transparent;
+		border: 1px solid #2D9CDB;
+		color: white;
+	    cursor: pointer;
+
+	}
+	h1,label ,form span,strong,.row > span{
+		color: #585858;
+	}
+
+	footer {
+		background: #F7F7F7;
+		border: 2px solid #E5E5E5;
+		position: relative;
+	}
+	footer  a {
+		color: #585858;
+		font-weight: bold;
+		position: absolute;
+		left: 50%;
+		padding: 5px;
+	}
+
+	#header-information {
+		width: 450px;
+		text-align: right;
+		padding: 5px;
+		float: right;
+		margin-right: 145px;
+	}
+
+	#header-information > div > img, #header-information > div > .email{
+		vertical-align: middle;
+		color: #FFFFFF;
+	}
+
+	#header-information > div > .email{
+		padding-left: 90px;
+	}
+
+	label {
+		font-weight: bold;
+	}
+
+	.card {
+		width: 340px;
+		height: 453px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: 35px;
+		margin-right: 5px;
+		position: relative;
+
+		background: #FFFFFF;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+		border-radius: 10px;
+
+	}
+
+	.card-header {
+		background-color: #2D9CDB;
+		border-radius: 10px 10px 0 0; 
+		width: 100%;
+		height: 75px;
+		color : white;
+		font-weight: bold;
+		text-align: center;
+		top: 0;
+		position: absolute;
+	}
+
+	.card-footer {
+		position: absolute;
+		bottom: 0;
+		background-color: #2D9CDB;
+		border-radius: 0 0 10px 10px ; 
+		width: 100%;
+		height: 75px;
+		color : white;
+		font-weight: bold;
+		text-align: center;
+	}
+	.card-content {
+		text-align: center;
+		margin-top: 150px;
+	}
+
+	#comment {
+		width: 330px;
+		height: 300px;
+		margin-left: 40px;
+		margin-right: 10px;
+		top: 125px;
+		bottom: 125px;
+		color: #585858;
+	}
+	.container > h1 {
+		text-align: center;
+	}
+
+	#horaires {
+		margin-top:50px; 
+		margin-bottom:50px; 
+
+	}
+
+	#socialIcons{
+		position: absolute;
+		display: inline-block;
+		right: 10%;
+		top: 0;
+		padding: 5px;
+	}
+	#socialIcons > a {
+		position: relative;
+	}
+
+	.icon-user-comment {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		 object-fit: cover;
+  		object-position: center right;
+	}
+	.row > span {
+		position: relative;
+		text-align: center;	
+	}
+
+	.modal {
+	    position: fixed;
+	    z-index: 1;
+	    left: 0;
+	    top: 0;
+	    width: 100%; 
+	    height: 100%; 
+	    overflow: auto; 
+	    background-color: rgb(0,0,0); 
+	    background-color: rgba(0,0,0,0.4); 
+
+	}
+
+	.modal-content {
+	    background-color: #fefefe;
+	    margin: 15% auto;
+	    width: 50%; 
+	    border-radius: 10px;
+	    text-align: left;
+	}
+
+	.modal-header {
+    	padding: 2px 16px;
+    	color: white;
+    	border-radius: 10px 10px 0 0;
+    	background-color: #FBFCFD;
+    	border: 1px solid #EDF0F3;
+	}
+	.btn {
+		background-color: #2D9CDB;
+		color : white;
+		border: none;
+		text-align: center;
+		font-weight: bold;
+		width: 100px;
+    	height: 30px;
+
+	}
+	.modal h2 {
+		color: #2D9CDB;
+		text-align: center;
+	}
+	.modal-body {
+		padding: 2px 16px;
+		background-color: #FBFCFD;
+		border-radius: 0 0 10px 10px;
+	}
+	.modal-body form {
+		text-align: center;
+	}
+	.modal-body form > div{
+		margin-bottom: 20px;	
+	}
+	.modal-body {
+		padding: 30px;
+	}
+
+	.modal-footer {
+	    padding: 2px 16px;
+	    border: 0 0 10px 10px;
+	}
+
+	.hide {
+		display: none ;
+	}
