@@ -1,0 +1,251 @@
+<html>
+
+    <head>
+        <title>WDS Administration</title>
+        <meta name="description" content="Administration du CMS">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/grille.css">
+        <link rel="stylesheet" type="text/css" href="../css/template_back.css">
+        <link rel="stylesheet" type="text/css" href="../css/ionicons.css">
+        <link rel="stylesheet" type="text/css" href="../css/back-office.css">
+        <link rel="stylesheet" type="text/css" href="../css/view_users.css">
+    </head>
+<body>
+    <header>
+        <section>
+            <article id="burgerMenu">
+                <img class="svg" src="../images/icons/android-menu.svg" alt="burgerMenu">
+            </article>
+
+            <article id="nameSiteWeb">
+                <img class="svg" src="../images/icons/ios-home-outline.svg" alt="Home">
+                <a href="#">Nom du site</a>
+            </article>
+
+            <article id="profile">
+                <div id="profileNamePicture">
+                    <span>Monsieur NOM</span>
+                    <img class="pictureProfile" src="../images/profil.jpg" alt="pictureProfile">
+                    <img class="chevronProfile openProfile" src="../images/open-profile.png" alt="openProfile"><img class="chevronProfile closeProfile" src="./images/close-profile.png" alt="closeProfile">
+                </div>
+                <div id="profileSettings">
+                    <div id="myProfile">
+                        <img src="../images/picture-profile.png" alt="logoProfile">
+                        <span>Mon profil</span>
+                    </div>
+                    <div id="logout">
+                        <img class="svg" src="../images/icons/log-out.svg" alt="logoDeconnexion">
+                        <span>Se déconnecter</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </header>
+
+    <nav id="mainNavigation">
+        <div class="logo">
+            <img src="../images/logo-WDS.png" alt="logo" width="175" height="175">
+        </div>
+        <ul>
+            <li>
+                <img class="svg" src="../images/icons/ios-speedometer-outline.svg" alt="tableauDeBord">
+                <a href="#">Tableau de bord</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-paper-outline.svg" alt="pages">
+                <a href="#">Pages</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-people-outline.svg" alt="utilisateurs">
+                <a href="#">Utilisateurs</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-compose-outline.svg" alt="roles">
+                <a href="#">Rôles</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-calendar-outline.svg" alt="planning">
+                <a href="#">Planning</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-time-outline.svg" alt="horaires">
+                <a href="#">Horaires</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-bookmarks-outline.svg" alt="progressions">
+                <a href="#">Progressions</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-chatboxes-outline.svg" alt="commentaires">
+                <a href="#">Commentaires</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-monitor-outline.svg" alt="theme">
+                <a href="#">Thème</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-gear-outline.svg" alt="reglages">
+                <a href="#">Réglages</a>
+            </li>
+            <li>
+                <img class="svg" src="../images/icons/ios-pie-outline.svg" alt="statistiques">
+                <a href="#">Statistiques</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="clearHeader"></div>
+
+    <div id="contentBack">
+
+       <!-- INSERT MAIN'S VIEW HERE -->
+        <div class="container">
+        <div class="userBox col-lg-12">
+        <div class="row">
+            <div class="userNav">
+                    <div><h1>UTILISATEURS</h1></div>
+                    <div class="userAdd">
+                        <p class="titre2"> Ajouter un utilisateur </p><a href="#"><i class="icon ion-ios-plus-outline userAddIcon"></i></a>
+                    </div>
+                    <div class="userSearch"> 
+                        <p class="titre2">Recherche : </p><input class="userSearchType" type="search" placeholder="Tapez ici votre recherche..."><a href="#" id="userSearch"><i class="icon ion-ios-search"></i></a>
+                    </div>
+                        <div class="userRole">
+                        <p class="titre2"> Rôle : </p>
+                        <select class="userRoleSelect">
+                            <option value="tous" selected>Tous</option>
+                            <option value="moniteurs">Moniteurs</option>
+                            <option value="eleves">Elèves</option>
+                            <option value="secrétaire">Secrétaires</option>
+                        </select>
+                        </div>
+            </div>
+        </div>
+        <div class="row">
+            <table>
+                <tr class="titre3">
+                    <th></th>
+                    <th>Rôle</th>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Dernière connexion</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><img class="userPic" src="../images/profil.jpg"></td>
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+                </tr>
+
+                <tr>
+                    <td><img src="../images/profil.jpg" class="userPic"></td>
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+                </tr>
+
+                <tr>
+                    <td><img src="../images/profil.jpg"class="userPic"></td>
+
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+
+                </tr>
+
+                <tr class="useroff1">
+                    <td><img src="../images/profil.jpg"class="userPic"></td>
+
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+
+                </tr>
+
+                <tr class="useroff1">
+                    <td><img src="../images/profil.jpg" class="userPic"></td>
+
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                    <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+
+                </tr>
+
+                <tr class="useroff">
+                    <td><img src="../images/profil.jpg" class="userPic"></td>
+
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+
+                </tr>
+
+                <tr class="useroff">
+                    <td><img src="../images/profil.jpg" class="userPic"></td>
+
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+
+                </tr>
+
+                <tr class="useroff">
+                    <td><img src="../images/profil.jpg" class="userPic"></td>
+
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+
+                </tr>
+
+                <tr class="useroff">
+                    <td><img src="../images/profil.jpg" class="userPic"></td>
+
+                        <td class="texte2">Moniteur</td>
+                        <td class="texte2">Jean</td>
+                        <td class="texte2">Dupont</td>
+                        <td class="texte2">12/10/2017</td>
+                        <td class="userIcons"><a href="#"><i class="icon ion-ios-calendar-outline pulse"></i></a><a href="#"><i class="icon ion-ios-compose-outline pulse"></i></a><a href="#"><i class="icon ion-ios-trash-outline pulse"></i></a>
+
+                </tr>
+
+
+            </table>
+        </div>
+        <div class="footer">
+        <ul class="nextPage">
+            <li><a href="#"><i class="icon ion-chevron-left"></i></a></li>
+            <li><a href="#"><div class="page1"><p>1</p></div></a></li>
+            <li><a href="#"><div class="page2"><p>2</p></div></a></li>
+            <li><a href="#"><div class="page3"><p>3</p></div></a></li>
+            <li><a href="#"><div class="page4"><p>4</p></div></a></li>
+            <li><a href="#"><i class="icon ion-chevron-right"></i></a></li>
+        </ul>
+        </div>
+    </div>
+        </div>
+        </div>
+
+</body>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/tpl/template_back.js"></script>
+
+</html>
