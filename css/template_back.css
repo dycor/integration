@@ -5,7 +5,7 @@
 
 body{
 	background-color: #F2F2F2;
-    font-family: Open Sans;
+	font-family: OpenSans-Bold, Calibri, Arial;
 }
 
 /* HEADER */
@@ -65,7 +65,6 @@ header > section > #nameSiteWeb > .svg{
 }
 
 header > section > #nameSiteWeb > a{
-	font-family: OpenSans-Bold, Calibri, Arial;
 	font-size: 14px;
 	vertical-align: middle;
 	text-decoration: none;
@@ -93,7 +92,6 @@ header > section > #profile > #profileNamePicture > .chevronProfile{
 
 header > section > #profile > #profileNamePicture > span{
 	vertical-align: middle;
-	font-family: OpenSans-Bold, Calibri, Arial;
 	font-size: 14px;
 	color: #3F4867;
 }
@@ -139,7 +137,6 @@ header > section > #profile > #profileSettings > div > .svg, header > section > 
 }
 
 header > section > #profile > #profileSettings > div > span{
-	font-family: OpenSans-Bold, Calibri, Arial;
 	font-size: 14px;
 	vertical-align: middle;
 	color: #3F4867;
@@ -153,6 +150,7 @@ header > section > #profile > #profileSettings > div > span{
 nav{
 	float: left;
 	height: 100%;
+	min-height: 700px;
 	width: 220px;
 	background-color: #3F4867;
 }
@@ -173,7 +171,6 @@ nav > ul > li{
 
 nav > ul > li:hover{
 	background-color: rgba(14, 17, 26, 0.2);
-    color: white;
 }
 
 nav > ul > li > .svg{
@@ -184,7 +181,6 @@ nav > ul > li > .svg{
 
 nav > ul > li > a{
 	text-decoration: none;
-	font-family: OpenSans-Bold, Calibri, Arial;
 	font-size: 14px;
 	color: #E1E8ED;
 	vertical-align: middle;

@@ -1,0 +1,258 @@
+<html>
+
+    <head>
+        <title>WDS Administration</title>
+        <meta name="description" content="Administration du CMS">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/grille.css">
+        <link rel="stylesheet" type="text/css" href="../css/template_back.css">
+        <link rel="stylesheet" type="text/css" href="../css/view_dashboard.css">
+    </head>
+
+    <body>
+
+        <header>
+            <section>
+                <article id="burgerMenu">
+                    <img class="svg" src="../images/icons/android-menu.svg" alt="burgerMenu">
+                </article>
+
+                <article id="nameSiteWeb">
+                    <img class="svg" src="../images/icons/ios-home-outline.svg" alt="Home">
+                    <a href="#">Nom du site</a>
+                </article>
+
+                <article id="profile">
+                    <div id="profileNamePicture">
+                        <span>Monsieur NOM</span>
+                        <img class="pictureProfile" src="../images/tpl/profil.jpg" alt="pictureProfile">
+                        <img class="chevronProfile openProfile" src="../images/tpl/open-profile.png" alt="openProfile"><img class="chevronProfile closeProfile" src="../images/tpl/close-profile.png" alt="closeProfile">
+                    </div>
+                    <div id="profileSettings">
+                        <div id="myProfile">
+                            <img src="../images/tpl/picture-profile.png" alt="logoProfile">
+                            <span>Mon profil</span>
+                        </div>
+                        <div id="logout">
+                            <img class="svg" src="../images/icons/log-out.svg" alt="logoDeconnexion">
+                            <span>Se déconnecter</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </header>
+
+        <nav id="mainNavigation">
+            <div class="logo">
+                <img src="../images/tpl/logo-WDS.png" alt="logo" width="175" height="175">
+            </div>
+            <ul>
+                <li>
+                    <img class="svg" src="../images/icons/ios-speedometer-outline.svg" alt="tableauDeBord">
+                    <a href="#">Tableau de bord</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-paper-outline.svg" alt="pages">
+                    <a href="#">Pages</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-people-outline.svg" alt="utilisateurs">
+                    <a href="#">Utilisateurs</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-compose-outline.svg" alt="roles">
+                    <a href="#">Rôles</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-calendar-outline.svg" alt="planning">
+                    <a href="#">Planning</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-time-outline.svg" alt="horaires">
+                    <a href="#">Horaires</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-bookmarks-outline.svg" alt="progressions">
+                    <a href="#">Progressions</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-chatboxes-outline.svg" alt="commentaires">
+                    <a href="#">Commentaires</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-monitor-outline.svg" alt="theme">
+                    <a href="#">Thème</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-gear-outline.svg" alt="reglages">
+                    <a href="#">Réglages</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-pie-outline.svg" alt="statistiques">
+                    <a href="#">Statistiques</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="clearHeader"></div>
+
+        <div id="contentBack">
+
+           <!-- INSERT MAIN'S VIEW HERE -->
+            <main>
+    
+    <div class="container-fluid">
+        <!-- Planning -->
+        <div class="row">
+            <div class="col-sm-12">
+                <section id="planning">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 id="title_planning">PLANNING</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-1 col-10 offset-1">
+                            <img id="dashboard_calendar" src="../images/view/dashboard_calendar.jpg" alt="planning">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="button-see" id="button-calendar">VOIR</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6">
+                <!-- Schedule -->
+                <section id="schedule">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 id="title_planning">HORAIRES</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-1 col-10 offset-1">
+                            <table>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Heure</th>
+                                    <th>Nom</th>
+                                    <th>Prénom</th>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>15:00</td>
+                                    <td>Comforte</td>
+                                    <td>Savoie</td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>17:00</td>
+                                    <td>LaGrande</td>
+                                    <td>Brunella</td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>16:00</td>
+                                    <td>Dupart</td>
+                                    <td>Henri</td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>15:00</td>
+                                    <td>Dupont</td>
+                                    <td>Jean</td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>11:00</td>
+                                    <td>Larivière</td>
+                                    <td>Eva</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="button-see" id="button-calendar">VOIR</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-xl-6">
+                <!-- Schedule -->
+                <section id="users">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 id="title_planning">UTILISATEURS</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-1 col-10 offset-1">
+                            <table>
+                                <tr>
+                                    <th>Rôle</th>
+                                    <th>Prénom</th>
+                                    <th>Nom</th>
+                                    <th>Dernière connexion</th>
+                                </tr>
+                                <tr>
+                                    <td>Moniteur</td>
+                                    <td>Jean</td>
+                                    <td>Dupont</td>
+                                    <td>12/10/2017</td>
+                                </tr>
+                                <tr>
+                                    <td>Moniteur</td>
+                                    <td>Antoine</td>
+                                    <td>Durand</td>
+                                    <td>12/10/2017</td>
+                                </tr>
+                                <tr>
+                                    <td>Moniteur</td>
+                                    <td>Maria</td>
+                                    <td>Martin</td>
+                                    <td>12/10/2017</td>
+                                </tr>
+                                <tr>
+                                    <td>Elève</td>
+                                    <td>Etienne</td>
+                                    <td>Jackson</td>
+                                    <td>12/10/2017</td>
+                                </tr>
+                                <tr>
+                                    <td>Elève</td>
+                                    <td>Mia</td>
+                                    <td>Bjornson</td>
+                                    <td>12/10/2017</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="button-see" id="button-calendar">VOIR</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+
+</main>
+
+        </div>
+
+    </body>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/tpl/template_back.js"></script>
+
+</html>
