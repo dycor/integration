@@ -1,4 +1,5 @@
 
+<link rel="stylesheet" type="text/css" href="../css/view/view_users.css">
 
         <div class="container">
         <div class="userBox col-lg-12">
