@@ -1,0 +1,180 @@
+<html>
+
+    <head>
+        <title>WDS Administration</title>
+        <meta name="description" content="Administration du CMS">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/grille.css">
+        <link rel="stylesheet" type="text/css" href="../css/template_back.css">
+        <link rel="stylesheet" type="text/css" href="../css/pages.css">
+        <link rel="stylesheet" type="text/css" href="../css/ionicons.css">
+    </head>
+
+    <body>
+
+        <header>
+            <section>
+                <article id="burgerMenu">
+                    <img class="svg" src="../images/icons/android-menu.svg" alt="burgerMenu">
+                </article>
+
+                <article id="nameSiteWeb">
+                    <img class="svg" src="../images/icons/ios-home-outline.svg" alt="Home">
+                    <a href="#">Nom du site</a>
+                </article>
+
+                <article id="profile">
+                    <div id="profileNamePicture">
+                        <span>Monsieur NOM</span>
+                        <img class="pictureProfile" src="../images/tpl/profil.jpg" alt="pictureProfile">
+                        <img class="chevronProfile openProfile" src="../images/tpl/open-profile.png" alt="openProfile"><img class="chevronProfile closeProfile" src="../images/tpl/close-profile.png" alt="closeProfile">
+                    </div>
+                    <div id="profileSettings">
+                        <div id="myProfile">
+                            <img src="../images/tpl/picture-profile.png" alt="logoProfile">
+                            <span>Mon profil</span>
+                        </div>
+                        <div id="logout">
+                            <img class="svg" src="../images/icons/log-out.svg" alt="logoDeconnexion">
+                            <span>Se déconnecter</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </header>
+
+        <nav id="mainNavigation">
+            <div class="logo">
+                <img src="../images/tpl/logo-WDS.png" alt="logo" width="175" height="175">
+            </div>
+            <ul>
+                <li>
+                    <img class="svg" src="../images/icons/ios-speedometer-outline.svg" alt="tableauDeBord">
+                    <a href="#">Tableau de bord</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-paper-outline.svg" alt="pages">
+                    <a href="#">Pages</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-people-outline.svg" alt="utilisateurs">
+                    <a href="#">Utilisateurs</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-compose-outline.svg" alt="roles">
+                    <a href="#">Rôles</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-calendar-outline.svg" alt="planning">
+                    <a href="#">Planning</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-time-outline.svg" alt="horaires">
+                    <a href="#">Horaires</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-bookmarks-outline.svg" alt="progressions">
+                    <a href="#">Progressions</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-chatboxes-outline.svg" alt="commentaires">
+                    <a href="#">Commentaires</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-monitor-outline.svg" alt="theme">
+                    <a href="#">Thème</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-gear-outline.svg" alt="reglages">
+                    <a href="#">Réglages</a>
+                </li>
+                <li>
+                    <img class="svg" src="../images/icons/ios-pie-outline.svg" alt="statistiques">
+                    <a href="#">Statistiques</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="clearHeader"></div>
+
+        <div id="contentBack">
+
+           <!-- INSERT MAIN'S VIEW HERE -->
+            <main>
+    
+                <div class="container-fluid">
+                    <!-- Pages -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section id="pages">
+                                <div class="row">
+                                    <div class="col-12 relative">
+                                        <h2 id="page-title">PAGES</h2>
+                                        <div class="filtre">
+                                            <select>
+                                                <option>Toutes</option>
+                                            </select>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="offset-1 col-10 offset-1 list">
+                                        <li>
+                                            <div class="list-title">FORFAITS</div>
+                                            <div class="list-details">Presentation et tarifs des forfaits proposés...</div>
+                                            <div class="panel">
+                                                <a href="#"><i class="ion-ios-compose-outline edit"></i></a>
+                                                <a href="#"><i class="ion-ios-trash-outline delete"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list-title">COMMENTAIRES</div>
+                                            <div class="list-details">Commentaires laissés par les élèves...</div>
+                                            <div class="panel">
+
+                                                <a href="#"><i class="ion-ios-compose-outline edit"></i></a>
+                                                <a href="#"><i class="ion-ios-trash-outline delete"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list-title">DESCRIPTION</div>
+                                            <div class="list-details">Description de l'entreprise et des services...</div>
+                                            <div class="panel">
+                                                <a href="#"><i class="ion-ios-compose-outline edit"></i></a>
+                                                <a href="#"><i class="ion-ios-trash-outline delete"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list-title">CONTACT</div>
+                                            <div class="list-details">Formulaire de contact et informations</div>
+                                            <div class="panel">
+                                                <a href="#"><i class="ion-ios-compose-outline edit"></i></a>
+                                                <a href="#"><i class="ion-ios-trash-outline delete"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list-title">NOUVEAU...</div>
+                                            <div class="list-details">Crée une page</div>
+                                            <div class="panel">
+                                                <a href="#"><i class="ion-ios-plus-outline pageAddIcon"></i></a>
+                                            </div>
+                                        </li>                               
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+
+            </main>
+
+        </div>
+
+    </body>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/tpl/template_back.js"></script>
+
+</html>
