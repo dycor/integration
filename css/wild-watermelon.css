@@ -5,6 +5,10 @@
 		background-color: #F7F7F7;
 		border:  2px solid #E5E5E5;
 	}
+
+	#burgerMenu {
+		display: none;
+	}
 	.banner {
 		position: relative;
 		height:765px;
@@ -314,3 +318,34 @@
 	.hide {
 		display: none ;
 	}
+
+	@media screen and (max-width: 950px) {
+	
+		#menuNav > ul{
+			display: none;
+		    position: absolute;
+    		left: 0;
+    		margin-top: 100px;
+		}
+		#menuNav > ul > li {
+		     background-color: black; /* Grey background color */
+		    color: black; /* Black text color */
+		    display: block; /* Make the links appear below each other */
+		    padding: 12px; /* Add some padding */
+		    text-decoration: none; /* Remove underline from links */
+		}
+
+		#burgerMenu {
+			display: block;
+			position: absolute;
+    		margin-top: 50px;
+    		background-color: #FC4D73;
+    		color: white;
+    		border: none;
+    		width: 50px;
+		}
+
+		#burgerMenu img{
+			width: 40px;
+		}
+ 	}
